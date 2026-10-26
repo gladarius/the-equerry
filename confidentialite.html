@@ -37,12 +37,17 @@ motif du refus sont notés, sans leur contenu.</li>
 <li><strong>Votre agenda</strong>, si vous l'autorisez : pour éviter d'ajouter un rendez-vous déjà présent,
 et pour ajouter ceux qui sont sûrs. L'application ne modifie ni ne supprime jamais un événement qu'elle n'a
 pas créé.</li>
+<li><strong>La liste des applications installées</strong>, pour vous proposer celles à écouter. Elle reste sur le
+téléphone.</li>
 </ul>
 
 <h2>Ce que l'application fait de ces données</h2>
 <ul>
-<li>Tout est traité <strong>sur votre téléphone</strong>. Aucune donnée n'est envoyée à un serveur, ni à
-nous, ni à un tiers. L'application ne demande pas l'accès à Internet : elle ne le peut pas.</li>
+<li>Tout est traité <strong>sur votre téléphone</strong>. L'application n'envoie aucune donnée à un serveur, ni à
+nous, ni à un tiers. Elle ne demande pas l'accès à Internet : elle ne le peut pas.</li>
+<li>Seule exception, celle que vous choisissez : un rendez-vous ajouté (titre, date, lieu) va dans l'agenda que
+vous avez choisi. Si cet agenda est synchronisé avec un compte (Google ou autre), il suit cette synchronisation,
+comme tout événement que vous y créez vous-même. Il reste dans votre agenda si vous désinstallez l'application.</li>
 <li>Le modèle d'intelligence artificielle (Gemma, de Google, sous licence Apache 2.0) est téléchargé par le
 Google Play Store comme une partie de l'application. Il ne transmet rien.</li>
 <li>Les notifications lues sont conservées sur le téléphone <strong>60 jours</strong> par défaut (réglable),
@@ -59,7 +64,18 @@ cloud.</li>
 de partage d'Android. L'application n'envoie rien d'elle-même.</li>
 <li><strong>Couper</strong> chaque action (agenda, rappels, rangement) dans les réglages, et retirer à tout
 moment l'accès aux notifications ou à l'agenda dans les réglages d'Android.</li>
-<li><strong>Tout effacer</strong> : désinstaller l'application supprime toutes ses données du téléphone.</li>
+<li><strong>Tout effacer</strong> : désinstaller l'application supprime toutes ses données du téléphone (les
+rendez-vous déjà ajoutés à votre agenda y restent ; vous pouvez les supprimer depuis l'agenda, ou les annuler
+depuis l'application tant qu'elle est installée).</li>
+</ul>
+
+<h2>Sécurité</h2>
+<ul>
+<li>Les données restent dans le stockage privé de l'application, auquel les autres applications n'ont pas
+accès, et dans le chiffrement natif d'Android.</li>
+<li>Les codes à usage unique (codes de vérification) sont masqués avant d'être enregistrés.</li>
+<li>L'export du journal ne donne accès qu'à ce seul fichier, et seulement à l'application que vous choisissez.</li>
+<li>Aucune sauvegarde automatique ni transfert entre appareils.</li>
 </ul>
 
 <h2>Données collectées ou partagées</h2>
